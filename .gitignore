@@ -1,0 +1,44 @@
+**/.DS_Store
+/node_modules
+/dist
+# untracked temp files, Module-Node, log, npm e.t.c.
+*~
+_devil.png
+_*.js
+_*.json
+node_modules
+bower_components
+npm-debug.log
+site
+build/ # ignore all files in directories - build
+worker_build/  # ignore all files in directories - worker_build
+public/    # ignore all files in directories - public
+dist/ # ignore all files in directories - dist
+dist/assets/  
+!dist/assets/bootstrap.min.css    # not only file - bootstrap.min.css
+src/components/ui/ui-old-version/ # ignore all files in directories - ui-old-version
+src/components/ui/ui-old-version/*.js
+
+# ignore arch, distrib
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ignore data base, logs
+*.log
+*.sql
+*.sqlite
+
+# ignore special files OS
+Thumbs.db
+Desktop.ini
+.DS_Store*
+ehthumbs.db
+Icon?
+
+

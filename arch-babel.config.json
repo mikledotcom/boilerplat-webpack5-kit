@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "loose": true,
+      "targets": {
+        "node": "6.9"
+      }
+    }],
+    ["@babel/react"]
+  ],
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  }
+}
